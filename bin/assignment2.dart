@@ -11,8 +11,8 @@ class Manager extends Employee {
   String department;
 
   Manager(String s,int sal, this.department){
-    super.name=s;
-    super.salary=sal;
+    name=s;  // super na dileo hoy..normal c++ er mto
+    salary=sal;
   }
 
   void displayInfo() {
